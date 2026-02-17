@@ -9,6 +9,7 @@ interface SkinSite {
 }
 
 const sites: SkinSite[] = [
+  { name: "CS2 Inspect tool", description: "Preview any custom craft", url: "https://cs2inspects.com/", color: "#fbab19" },
   { name: "DMarket", description: "Buy & sell skins instantly", url: "https://dmarket.com", color: "#00e5ff" },
   { name: "CSFloat", description: "Buy skins by float value", url: "https://csfloat.com", color: "#18ffff" },
   { name: "Tradeit.gg", description: "Instant skin trading", url: "https://tradeit.gg", color: "#00e676" },
