@@ -17,7 +17,7 @@ const sites: SkinSite[] = [
   { name: "LIS-SKINS", description: "Trade & buy CS2 skins", url: "https://lis-skins.com/", color: "#ca5e10" },
   { name: "CS.Money", description: "Trade & buy CS2 skins", url: "https://cs.money", color: "#ffab00" },
   { name: "SkinPort", description: "Low fees, trusted marketplace", url: "https://skinport.com", color: "#ff6e40" },
-  { name: "SkinSearch", description: "Find CS2 skins, knives, gloves, cases, stickers or other items for the cheapest price.", url: "https://skinsearch.com/", color: "#02c1f2" },
+  { name: "SkinSearch", description: "Find CS2 skins, knives, gloves, cases or stickers", url: "https://skinsearch.com/", color: "#02c1f2" },
   { name: "Buff 163", description: "Best prices, Chinese marketplace", url: "https://buff.163.com/", color: "#ffffff" },
   { name: "BUFF Market", description: "Best prices, Chinese marketplace", url: "https://buff.market", color: "#ffea00" },
   { name: "Swap.gg", description: "Instant automated trades", url: "https://swap.gg", color: "#ea80fc" },
