@@ -17,7 +17,7 @@ const sites: SkinSite[] = [
   { name: "CS.Money", description: "Trade & buy CS2 skins", url: "https://cs.money", color: "#ffab00" },
   { name: "SkinPort", description: "Low fees, trusted marketplace", url: "https://skinport.com", color: "#ff6e40" },
   { name: "SkinBaron", description: "German-based skin marketplace", url: "https://skinbaron.de", color: "#448aff" },
-  { name: "Buff 163", description: "Best prices, Chinese marketplace", url: "https://buff.163.com/", color: "#3d4e6f" },
+  { name: "Buff 163", description: "Best prices, Chinese marketplace", url: "https://buff.163.com/", color: "#ffffff" },
   { name: "BUFF Market", description: "Best prices, Chinese marketplace", url: "https://buff.market", color: "#ffea00" },
   { name: "Swap.gg", description: "Instant automated trades", url: "https://swap.gg", color: "#ea80fc" },
   { name: "BitSkins", description: "Buy & sell with crypto support", url: "https://bitskins.com", color: "#69f0ae" },
