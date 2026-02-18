@@ -29,6 +29,7 @@ const sites: SkinSite[] = [
   { name: "SkinsMonkey", description: "Trade skins instantly", url: "https://skinsmonkey.com", color: "#b2ff59" },
   { name: "Mannco.Store", description: "Discounted CS2 skins", url: "https://mannco.store", color: "#ffd740" },
   { name: "CS.Deals", description: "Skin marketplace & Trade bot", url: "https://cs.deals/", color: "#00def1" },
+  { name: "Pricempire.com", description: "Track CS2 inventory price history", url: "https://app.pricempire.com/", color: "#4cf364" },
 ];
 
 const SiteCard = ({ site }: { site: SkinSite }) => (
