@@ -1,5 +1,6 @@
 import { ExternalLink, Crosshair } from "lucide-react";
 import cs2Logo from "@/assets/cs2-logo.png";
+import haloSkinsLogo from "@/assets/haloskins-logo.png";
 
 interface SkinSite {
   name: string;
@@ -16,7 +17,7 @@ const sites: SkinSite[] = [
   { name: "DMarket", description: "Buy & sell skins instantly", url: "https://dmarket.com", color: "#00e5ff" },
   { name: "CSFloat", description: "Buy skins by float value", url: "https://csfloat.com", color: "#18ffff" },
   { name: "Tradeit.gg", description: "Instant skin trading", url: "https://tradeit.gg", color: "#00e676" },
-  { name: "HaloSkins", description: "CS2 skin marketplace", url: "https://haloskins.com", color: "#b388ff", logo: "https://haloskins.com/favicon.ico" },
+  { name: "HaloSkins", description: "CS2 skin marketplace", url: "https://haloskins.com", color: "#b388ff", logo: haloSkinsLogo },
   { name: "LIS-SKINS", description: "Trade & buy CS2 skins", url: "https://lis-skins.com/", color: "#ca5e10" },
   { name: "CS.Money", description: "Trade & buy CS2 skins", url: "https://cs.money", color: "#ffab00" },
   { name: "SkinsMonkey", description: "Trade skins instantly", url: "https://skinsmonkey.com", color: "#b2ff59" }, 
