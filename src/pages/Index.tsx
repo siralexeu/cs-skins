@@ -10,14 +10,15 @@ interface SkinSite {
 
 const sites: SkinSite[] = [
   { name: "CS2 Inspect tool", description: "Preview any custom craft", url: "https://cs2inspects.com/", color: "#fbab19" },
+  { name: "SkinSearch", description: "Find CS2 skins, knives, gloves, cases or stickers", url: "https://skinsearch.com/", color: "#02c1f2" },
+  { name: "Pricempire.com", description: "Track CS2 inventory price history", url: "https://app.pricempire.com/", color: "#4cf364" },
   { name: "DMarket", description: "Buy & sell skins instantly", url: "https://dmarket.com", color: "#00e5ff" },
   { name: "CSFloat", description: "Buy skins by float value", url: "https://csfloat.com", color: "#18ffff" },
   { name: "Tradeit.gg", description: "Instant skin trading", url: "https://tradeit.gg", color: "#00e676" },
   { name: "HaloSkins", description: "CS2 skin marketplace", url: "https://haloskins.com", color: "#b388ff" },
   { name: "LIS-SKINS", description: "Trade & buy CS2 skins", url: "https://lis-skins.com/", color: "#ca5e10" },
   { name: "CS.Money", description: "Trade & buy CS2 skins", url: "https://cs.money", color: "#ffab00" },
-  { name: "SkinPort", description: "Low fees, trusted marketplace", url: "https://skinport.com", color: "#ff6e40" },
-  { name: "SkinSearch", description: "Find CS2 skins, knives, gloves, cases or stickers", url: "https://skinsearch.com/", color: "#02c1f2" },
+  { name: "SkinsMonkey", description: "Trade skins instantly", url: "https://skinsmonkey.com", color: "#b2ff59" }, 
   { name: "Buff 163", description: "Best prices, Chinese marketplace", url: "https://buff.163.com/", color: "#ffffff" },
   { name: "BUFF Market", description: "Best prices, Chinese marketplace", url: "https://buff.market", color: "#ffea00" },
   { name: "Swap.gg", description: "Instant automated trades", url: "https://swap.gg", color: "#ea80fc" },
@@ -26,10 +27,9 @@ const sites: SkinSite[] = [
   { name: "CS.Trade", description: "Automated skin trading bot", url: "https://cs.trade", color: "#ff4081" },
   { name: "Waxpeer", description: "P2P skin marketplace", url: "https://waxpeer.com", color: "#536dfe" },
   { name: "LootBear", description: "Rent & sell CS2 skins", url: "https://lootbear.com", color: "#ff5252" },
-  { name: "SkinsMonkey", description: "Trade skins instantly", url: "https://skinsmonkey.com", color: "#b2ff59" },
+  { name: "SkinPort", description: "Low fees, trusted marketplace", url: "https://skinport.com", color: "#ff6e40" },
   { name: "Mannco.Store", description: "Discounted CS2 skins", url: "https://mannco.store", color: "#ffd740" },
   { name: "CS.Deals", description: "Skin marketplace & Trade bot", url: "https://cs.deals/", color: "#00def1" },
-  { name: "Pricempire.com", description: "Track CS2 inventory price history", url: "https://app.pricempire.com/", color: "#4cf364" },
 ];
 
 const SiteCard = ({ site }: { site: SkinSite }) => (
