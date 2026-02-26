@@ -22,14 +22,15 @@ const sites: SkinSite[] = [
   { name: "Buff 163", description: "Best prices, Chinese marketplace", url: "https://buff.163.com/", color: "#ffffff" },
   { name: "BUFF Market", description: "Best prices, Chinese marketplace", url: "https://buff.market", color: "#ffea00" },
   { name: "Swap.gg", description: "Instant automated trades", url: "https://swap.gg", color: "#ea80fc" },
+  { name: "UUSKINS", description: "Instant delivery and competitive pricing", url: "https://www.uuskins.com/", color: "#ffcc00" },
   { name: "SkinBaron", description: "German-based skin marketplace", url: "https://skinbaron.de", color: "#448aff" },
   { name: "BitSkins", description: "Buy & sell with crypto support", url: "https://bitskins.com", color: "#69f0ae" },
   { name: "CS.Trade", description: "Automated skin trading bot", url: "https://cs.trade", color: "#ff4081" },
   { name: "Waxpeer", description: "P2P skin marketplace", url: "https://waxpeer.com", color: "#536dfe" },
-  { name: "LootBear", description: "Rent & sell CS2 skins", url: "https://lootbear.com", color: "#ff5252" },
   { name: "SkinPort", description: "Low fees, trusted marketplace", url: "https://skinport.com", color: "#ff6e40" },
   { name: "Mannco.Store", description: "Discounted CS2 skins", url: "https://mannco.store", color: "#ffd740" },
   { name: "CS.Deals", description: "Skin marketplace & Trade bot", url: "https://cs.deals/", color: "#00def1" },
+  { name: "GameBoost", description: "Find the best deals for CS2 skins", url: "https://gameboost.com/counter-strike-2/", color: "#0b6cfb" },
 ];
 
 const SiteCard = ({ site }: { site: SkinSite }) => (
