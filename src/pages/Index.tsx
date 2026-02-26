@@ -40,7 +40,7 @@ const SiteCard = ({ site }: { site: SkinSite }) => (
     href={site.url}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center gap-4 rounded-md border border-border/50 bg-card px-5 py-4 transition-all duration-200 hover:border-primary/40 hover:bg-secondary hover:shadow-[0_0_20px_-5px_hsl(180_100%_40%/0.15)] group"
+    className="flex items-center gap-3 rounded-md border border-border/50 bg-card px-4 py-3 transition-all duration-200 hover:border-primary/40 hover:bg-secondary hover:shadow-[0_0_20px_-5px_hsl(180_100%_40%/0.15)] group"
   >
     <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden">
       <img
