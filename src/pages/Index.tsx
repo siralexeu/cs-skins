@@ -41,15 +41,22 @@ const SiteCard = ({ site }: { site: SkinSite }) => (
     className="flex items-center gap-4 rounded-md border border-border/50 bg-card px-5 py-4 transition-all duration-200 hover:border-primary/40 hover:bg-secondary hover:shadow-[0_0_20px_-5px_hsl(180_100%_40%/0.15)] group"
   >
     <div
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md text-sm font-bold uppercase tracking-wider"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md overflow-hidden"
       style={{
         backgroundColor: site.color + "15",
-        color: site.color,
         border: `1px solid ${site.color}33`,
-        fontFamily: "'Share Tech Mono', monospace",
       }}
     >
-      {site.name.charAt(0)}
+      <img
+        src={`https://www.google.com/s2/favicons?domain=${new URL(site.url).hostname}&sz=64`}
+        alt={site.name}
+        className="h-7 w-7 object-contain"
+        onError={(e) => {
+          const target = e.currentTarget;
+          target.style.display = 'none';
+          target.parentElement!.innerHTML = `<span style="color:${site.color};font-family:'Share Tech Mono',monospace;font-size:0.875rem;font-weight:700">${site.name.charAt(0)}</span>`;
+        }}
+      />
     </div>
     <div className="flex-1 min-w-0">
       <h3 className="font-semibold text-foreground tracking-wide">{site.name}</h3>
