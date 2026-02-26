@@ -75,7 +75,7 @@ const Index = () => {
           CS2 <span className="text-primary">Skins</span>
         </h1>
         <p className="mt-2 text-sm text-muted-foreground tracking-wide" style={{ fontFamily: "'Share Tech Mono', monospace" }}>
-          // BEST MARKETPLACES & TRADING SITES
+          BEST MARKETPLACES & TRADING SITES
         </p>
       </div>
 
