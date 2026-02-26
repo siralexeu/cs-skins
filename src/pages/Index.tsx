@@ -1,4 +1,4 @@
-import { ExternalLink, Crosshair } from "lucide-react";
+import { Crosshair } from "lucide-react";
 import cs2Logo from "@/assets/cs2-logo.png";
 import haloSkinsLogo from "@/assets/haloskins-logo.png";
 
@@ -40,7 +40,7 @@ const SiteCard = ({ site }: { site: SkinSite }) => (
     href={site.url}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center gap-4 rounded-md border border-border/50 bg-card px-5 py-4 transition-all duration-200 hover:border-primary/40 hover:bg-secondary hover:shadow-[0_0_20px_-5px_hsl(180_100%_40%/0.15)] group"
+    className="flex items-center justify-center gap-4 rounded-md border border-border/50 bg-card px-5 py-4 transition-all duration-200 hover:border-primary/40 hover:bg-secondary hover:shadow-[0_0_20px_-5px_hsl(180_100%_40%/0.15)] group"
   >
     <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden">
       <img
@@ -54,11 +54,10 @@ const SiteCard = ({ site }: { site: SkinSite }) => (
         }}
       />
     </div>
-    <div className="flex-1 min-w-0">
+    <div className="min-w-0">
       <h3 className="font-semibold text-foreground tracking-wide">{site.name}</h3>
       <p className="text-sm text-muted-foreground">{site.description}</p>
     </div>
-    <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground opacity-40 group-hover:text-primary group-hover:opacity-100 transition-all" />
   </a>
 );
 
