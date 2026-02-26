@@ -79,7 +79,7 @@ const Index = () => {
         </p>
       </div>
 
-      <div className="flex w-full max-w-xl flex-col gap-2">
+      <div className="flex w-full max-w-md flex-col gap-2">
         {sites.map((site) => (
           <SiteCard key={site.name} site={site} />
         ))}
